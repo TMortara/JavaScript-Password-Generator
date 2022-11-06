@@ -43,14 +43,18 @@ function generatePassword () {
       passwordOptions += specialChar;
       generatedPassword.push(specialChar[Math.floor(Math.random()* specialChar.length)])
      }
-    
-    
+     if (!passwordOptions) {
+      alert("You must select at least one option!");
+     }
+     while (generatedPassword.length < passwordLength) {
+      generatedPassword.push(passwordOptions[Math.floor(Math.random()*passwordOptions.length)]);
+     }
     }
   else {
     alert("Password lenth must be betwen 8-128 characters.");
   }
-
-
+  
+  return generatedPassword.join("");
 }
 
 // Add event listener to generate button
