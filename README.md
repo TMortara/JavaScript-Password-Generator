@@ -1,12 +1,17 @@
 # JavaScript-Password-Generator
 ## Description
-
+The password generator allows users to select between lowercase letters, uppercase letters, numbers, and/or special characters to create a random password between 8-128 characters. 
 ## Deployed Portfolio
-
-## Using the Password Generator
-- 
-- 
-- 
+https://tmortara.github.io/JavaScript-Password-Generator/
+## How to use the Password Generator
+1. Click Generate Password
+2. Enter a password length between 8-128 characters.  *If the user selects a length outside of 8-128 characters, they will be prompted to try again.* 
+3. If you would like to include numbers click 'OK'.  By selecting 'Cancel' you will move to the next prompt and numbers will not be included in your password.
+4. If you would like to include lowercase letters click 'OK'.  By selecting 'Cancel' you will move to the next prompt and lowercase letters will not be included in your password.
+5. If you would like to include uppercase letters click 'OK'.  By selecting 'Cancel' you will move to the next prompt and uppercase letters will not be included in your password.
+6. If you would like to include special characters click 'OK'.  By selecting 'Cancel' you will move to the next prompt and special characters will not be included in your password.
+7. Users must choose to include one character.  *If they do not, they will be prompted to try again.* 
+8. Once they have satisfied the lenght and character requirement, the users password will appear in the generated password text box. 
 ## Built With
 - HTML
 - CSS
@@ -14,6 +19,8 @@
 ## Installation Steps
 None
 ## Credits
+- My husband, a Full Stack Developer, assisted in helping me understand how to start writing code. 
+- My tutor, Alexis Gonzales, and our class T.A. Amanda helped walk through cleaning up my code. 
 ### Resources Used to Complete Project
 - [MDN Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 - [MDN Window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
